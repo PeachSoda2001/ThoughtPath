@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &358910349580190834
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1319893097774629893}
+  - component: {fileID: 6820583036174899280}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1319893097774629893
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358910349580190834}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6820583036174899280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358910349580190834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3ac9e5eed06a0b43bf72a501e7f4b50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Background: {fileID: 0}
+  OpenSceneSprites:
+  - {fileID: 21300000, guid: e698ff91ac3ed9a49b52eb4dbb480fbd, type: 3}
+  - {fileID: 21300000, guid: 87a8b02e059367a42b5feb92961fb2ca, type: 3}
+  - {fileID: 21300000, guid: b17c4b1437e2a534b9498253b095b3f6, type: 3}
+  - {fileID: 21300000, guid: ebe74aaad1be8d64db41cac1683f0dac, type: 3}
+  - {fileID: 21300000, guid: e4f95882f9ca02041bd02f337bd58b13, type: 3}
+  OutsideWorldBackGround: {fileID: 0}
+  InsideWorldBackGround: {fileID: 0}
+  Scene1ResultPicsSuccess:
+  - {fileID: 21300000, guid: f87cdecf43e9433488bccbdc71adddc4, type: 3}
+  - {fileID: 21300000, guid: c06860bf544237b4283f7ce7142fb04e, type: 3}
+  Scene1ResultPicsFailed:
+  - {fileID: 21300000, guid: c06860bf544237b4283f7ce7142fb04e, type: 3}
+  CurrentStage: 0
